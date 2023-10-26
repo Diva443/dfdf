@@ -7,8 +7,8 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Set the working directory to the model directory
-model_dir = 'model'  # Use a relative path
-os.chdir(model_dir)
+# model_dir = 'model'  # Use a relative path
+# os.chdir(model_dir)
 
 # Load the trained model
 model = load_model('model1.hdf5')  # Use a relative path
